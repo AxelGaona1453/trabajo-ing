@@ -1,13 +1,11 @@
 // src/pages/QuizPage.jsx
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 
-// --- Base de datos de preguntas (basadas en el PDF) ---
-// El 'status' inicial es 'pending'. Cambia a 'correct' o 'incorrect'.
 const initialQuestions = [
 	{
 		letter: 'A',
 		question: 'Metodología de desarrollo que surge en 2001 (Manifiesto...]',
-		answer: 'Ágil',
+		answer: 'Agil',
 		status: 'pending',
 	},
 	{
